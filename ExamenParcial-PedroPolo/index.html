@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Cliente</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+    <div id="name" class="customer-data"></div>
+    <div id="accountNumber" class="customer-data"></div>
+
+    <div id="transactions" class="transaction-history"></div>
+    <a href="detallesTransacciones.html"><button>Detalles</button></a>
+    <form id="transferForm" class="transfer-form">
+        <div>
+            <label for="amount">Monto:</label>
+            <input type="text" id="amount" name="amount" required>
+        </div>
+        <div>
+            <label for="accountNumber">Número de cuenta:</label>
+            <input type="text" id="accountNumber" name="accountNumber" required>
+        </div>
+        <button type="submit">Transferir</button>
+    </form>
+
+</body>
+
+</html>

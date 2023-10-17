@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #33343ec4;
+}
+
+.customer-data, .transaction-history {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.customer-data {
+    width: 300px;
+}
+
+.transaction-history {
+    width: 400px;
+}
+
+.transfer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.transfer-form div {
+    margin: 10px;
+}
+
+.transfer-form label {
+    font-weight: bold;
+}
+
+.transfer-form input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.transfer-form button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.transfer-form button:hover {
+    background-color: #45a049;
+}
+a button {
+    background-color: #337ab7;
+    color: #fff;
+}
+
+a button:hover {
+    background-color: #23527c;
+}
